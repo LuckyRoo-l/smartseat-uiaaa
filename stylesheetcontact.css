@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  height: 120vh;
+  background: linear-gradient(135deg, #e81a1a, #007bff);
+}
+
+h1 {
+    width: 700px;
+    color: rgb(255, 0, 0);
+    font-size: 40 px;
+    margin-bottom: 20px;
+
+    
+}
+
+.main {
+    text-align: center;
+    background: white;
+    width: 800px;
+    height: 900px;
+    margin: 0 auto;
+    border-radius: 20px;
+    text-align: justify;
+   
+}
+
+
+.navbar {
+  position: relative;
+  z-index: 3;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff0000;
+  color: white;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 18px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #8b0000;
+  color: white;
+}
+
+#MyVideo 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(20px);
+    z-index: -1;
+   
+}
+
+img {
+    width: 720px;
+    height: 550px;
+}
